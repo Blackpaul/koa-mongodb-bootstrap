@@ -1,0 +1,86 @@
+
+<nav class="navbar navbar-default navbar-static-top content-header">
+  <div class="container">
+    <div class="hidden-xs col-sm-6 col-md-6 col-lg-6">
+        <a href="/"><img src="" class="img-responsive"></a>
+    </div>
+    <div class="text-xs-left col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right content-header-nav">
+      <div class="navbar-header" >
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-bar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse nav-bar">
+        <ul class="list-inline">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="" data-toggle="modal" data-target="#modal-signup">Sign Up</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="modal fade" id="modal-signup" role="dialog">
+    <div class="modal-dialog re-align-modal">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title">Sign Up Now</h2>
+          <p>Don't miss your chance to be part of the community</p>
+        </div>
+        <div class="modal-body re-size-modal-content" >
+          <div class="row">
+            <form id="signupform" method="POST" role="form">
+              <div class="form-group col-lg-6 div-txtfname">
+                 <input type="text" class="form-control"  class="test" name="txtfname" placeholder="First Name" data-placement="left">
+              </div>
+              <div class="form-group col-lg-6 div-txtlname" >
+                <input type="text" class="form-control txtlname"  name="txtlname" placeholder="Last Name" data-placement="right"> 
+              </div>
+              <div class="form-group col-lg-12 div-txtemail">
+                <input type="text" class="form-control" name="txtemail" placeholder="Email Address" data-placement="left" id="test0">
+                
+              </div>
+              <div class="form-group col-lg-6 div-txtpass">
+                <input type="password" class="form-control"  name="txtpass" id="txtpass" placeholder="Password" data-placement="left">
+              </div>
+              <div class="form-group col-lg-6 div-cpass">
+                <input type="password" class="form-control"  name="txtcpass" placeholder="Confirm Password" data-placement="right">
+              </div>
+
+              <div class="form-group col-lg-6 div-slctskill" >
+                <select class="form-control" name="slctskill" data-placement="left">
+                  <option value="" disabled selected>Select Skill</option>
+                  <option value="Beatboxer">Beatboxer</option>
+                  <option value="Dancer">Dancer</option>
+                  <option value="Rapper">Rapper</option>
+                  <option value="Skater">Skater</option>
+                </select>
+                <span id="ui" class="glyphicon glyphicon-triangle-bottom form-control-feedback" style="margin: 0 15px 0 0;"></span> 
+              </div>
+
+              <div class="form-group col-lg-6 div-slctgender">
+                <select class="form-control" name="slctgender" data-placement="right">
+                  <option value="" disabled selected>Select Gender</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="Gay">Gay</option>
+                  <option value="Lesbian">Lesbian</option>
+                </select>     
+                <span class="glyphicon glyphicon-triangle-bottom form-control-feedback" style="margin: 0 15px 0 0"></span> 
+              </div>
+
+              <div class="form-group col-lg-12">
+                <input type="submit" class="btn btn-primary signup-btn" value="Submit">
+                <input type="hidden" id="test1">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,187 @@
+/**********HEADER CSS STYE HERE*********/
+.content-header {
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0));
+  border: none !important;
+}
+.navbar-toggle {
+  background-color: #fff;
+}
+.nav-bar {
+  border: none !important;
+}
+.content-header-nav .nav-bar ul {
+  margin: 1% 0 0 0 !important;
+  line-height: 5;
+}
+.content-header-nav .nav-bar ul li {
+  padding: 0 0 0 5%;
+}
+.content-header-nav .nav-bar ul li a {
+  color: #000;
+  font-size: 15px;
+}
+.content-header-nav .nav-bar ul li a:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+.re-align-modal {
+  margin-top: 15% !important;
+}
+.re-size-modal-content {
+  margin: 2% 3% 2% 3%;
+}
+/**********Sign Up CSS STYE HERE*********/
+.signup-btn {
+  width: 100%;
+}
+/**********HOME CSS STYE HERE*********/
+.home-div,
+.home-div-txtUser,
+.home-div-btnLogin {
+  padding: 0;
+}
+.home-div p:nth-child(1) {
+  margin: 35% 0 0 0;
+  font-size: 3.5em;
+}
+.home-div p:nth-child(1) b {
+  color: #337ab7;
+}
+select.form-control {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+/**********tooltip CSS STYE HERE*********/
+.tooltip-inner {
+  background-color: #337ab7 !important;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #337ab7;
+}
+.tooltip.top-left .tooltip-arrow {
+  border-top-color: #337ab7;
+}
+.tooltip.top-right .tooltip-arrow {
+  border-top-color: #337ab7;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: #337ab7;
+}
+.tooltip.left .tooltip-arrow {
+  border-left-color: #337ab7;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #337ab7;
+}
+.tooltip.bottom-left .tooltip-arrow {
+  border-bottom-color: #337ab7;
+}
+.tooltip.bottom-right .tooltip-arrow {
+  border-bottom-color: #337ab7;
+}
+.tooltip > .tooltip-inner {
+  background-color: #337ab7;
+}
+/**********MEDIA QUERY CSS STYE HERE*********/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .div-txtlname .tooltip,
+  .div-cpass .tooltip {
+    margin: 0 0 0 -673px !important;
+  }
+  .div-slctgender .tooltip {
+    margin: 0 0 0 -736px !important;
+  }
+  .tooltip-arrow {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .home-div {
+    margin: -15% 0 0 0 !important;
+    text-align: center;
+  }
+  .home-div-txtpass {
+    padding: 0;
+  }
+  .home-div p:nth-child(1) {
+    font-size: 3em;
+  }
+  .div-txtlname .tooltip,
+  .div-cpass .tooltip {
+    margin: 0 0 0 -673px !important;
+  }
+  .div-slctgender .tooltip {
+    margin: 0 0 0 -736px !important;
+  }
+  .tooltip-arrow {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .content-header-nav {
+    text-align: left !important;
+  }
+  .content-header-nav .nav-bar {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .content-header-nav .nav-bar ul {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .content-header-nav .nav-bar ul li {
+    overflow: hidden;
+    display: block !important;
+    height: 35px !important;
+    line-height: 2.5 !important;
+    background: linear-gradient(to right, rgba(255,255,255,0.7), rgba(43,180,255,0));
+    border-left: dashed 4px #fff;
+    padding: 0 0 0 1%;
+  }
+  .content-header-nav .nav-bar ul li:hover {
+    border-left: solid 1px #fff;
+    background: rgba(255,255,255,0.9);
+  }
+  .content-header-nav .nav-bar ul li a {
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    left: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .content-header-nav .nav-bar ul li a:hover {
+    margin: 0 0 0 50%;
+  }
+  .home-div {
+    padding: 5%;
+    text-align: center;
+  }
+  .home-div-txtpass {
+    padding: 0;
+  }
+  .home-div p:nth-child(1) {
+    margin: 20% 0 0 0;
+    font-size: 3.5em;
+  }
+  .tooltip-arrow {
+    display: none;
+  }
+  .tooltip-inner {
+    display: none;
+  }
+}
+/**********FOOTER CSS STYE HERE*********/
+.content-footer {
+  background-color: transparent !important;
+  color: #337ab7;
+  border: none !important;
+}
+.content-footer h5 {
+  margin: 17px 0 0 0;
+}
